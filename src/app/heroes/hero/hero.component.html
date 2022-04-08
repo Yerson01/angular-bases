@@ -1,0 +1,18 @@
+<h1>{{ name }}</h1>
+
+<dl>
+  <td>Name:</td>
+  <dd>{{ name }}</dd>
+
+  <td>Age:</td>
+  <dd>{{ age }}</dd>
+
+  <td>Code:</td>
+  <dd>{{ heroAlias }}</dd>
+
+  <td>Power:</td>
+  <dd>{{ getDetails() }}</dd>
+</dl>
+
+<button (click)="changeHero()">Change Hero</button>
+<button (click)="changeAge()">Change Age</button>
